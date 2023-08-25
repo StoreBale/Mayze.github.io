@@ -1,19 +1,23 @@
 .image-container {
-    top: 10px;
-    display: flex;
-    justify-content: center; /* 水平居中 */
-    align-items: center; /* 垂直居中 */
-    height: 100%; /* 设置合适的高度 */
-    max-width: 60%; /* 设置合适的最大宽度 */
-    margin: 0 auto; /* 水平居中 */
-  }
-
-.ALLcenter{
-    top: 10px;
-    display: flex;
-    justify-content: center; /* 水平居中 */
-    align-items: center; /* 垂直居中 */
-    margin: 0 auto; /* 水平居中 */
+  top: 10px;
+  display: flex;
+  justify-content: center;
+  /* 水平居中 */
+  align-items: center;
+  /* 垂直居中 */
+  height: 100%;
+  /* 设置合适的高度 */
+  max-width: 60%;
+  /* 设置合适的最大宽度 */
+  margin: 0 auto;
+  /* 水平居中 */
 }
 
-  
+.h1_element {
+  padding-top: 10px;
+}
+
+.element {
+  margin-top: 10px;
+  padding-top: 10px;
+}
