@@ -5,6 +5,10 @@ ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg'])
 app=Flask(__name__)
 @app.route('/')
 def index():
+    return render_template('Hello.html')
+
+@app.route('/first')
+def index2():
     return render_template('first_app.html')
 
 if __name__ == '__main__':
